@@ -8,6 +8,14 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+@font-face {
+    font-family: 'handwriting';
+    src: url('fonts/SchuboiseHandwrite.eot');
+    src: local('☺'), url('fonts/SchuboiseHandwrite.woff') format('woff'), url('fonts/SchuboiseHandwrite.ttf') format('truetype'), url('fonts/SchuboiseHandwrite.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -223,7 +231,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "handwriting", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -4361,14 +4369,8 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
-  background-repeat: repeat-x;
-  border: 1px solid #d4d4d4;
+  background-color: #ffffff;
+  border: 5px solid #555555;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
