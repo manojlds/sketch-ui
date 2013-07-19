@@ -2020,7 +2020,7 @@ table {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 4px solid #555555;
 }
 
 .table th {
@@ -2041,7 +2041,7 @@ table {
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 4px solid #555555;
 }
 
 .table .table {
@@ -2054,7 +2054,7 @@ table {
 }
 
 .table-bordered {
-  border: 1px solid #dddddd;
+  border: 4px solid #555555;
   border-collapse: separate;
   *border-collapse: collapse;
   border-left: 0;
@@ -2065,7 +2065,7 @@ table {
 
 .table-bordered th,
 .table-bordered td {
-  border-left: 1px solid #dddddd;
+  border-left: 4px solid #555555;
 }
 
 .table-bordered caption + thead tr:first-child th,
@@ -2899,7 +2899,7 @@ table th[class*="span"],
   width: 0;
   height: 0;
   vertical-align: top;
-  border-top: 4px solid #000000;
+  border-top: 4px solid #555555;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   content: "";
@@ -2922,10 +2922,7 @@ table th[class*="span"],
   margin: 2px 0 0;
   list-style: none;
   background-color: #ffffff;
-  border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  *border-right-width: 2px;
-  *border-bottom-width: 2px;
+  border: 4px solid #555555;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -2949,7 +2946,7 @@ table th[class*="span"],
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 4px solid #555555;
 }
 
 .dropdown-menu > li > a {
