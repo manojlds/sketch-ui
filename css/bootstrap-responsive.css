@@ -993,18 +993,23 @@
     display: none;
   }
   .nav-collapse .nav .nav-header {
-    color: #777777;
+    color: #555555;
     text-shadow: none;
   }
   .nav-collapse .nav > li > a,
+  .nav-collapse .nav > li.active > a,
+  .nav-collapse .nav > li.active > a:hover,
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
     font-weight: bold;
-    color: #777777;
+    color: #555555;
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
             border-radius: 3px;
+      border: 4px solid #555555;
   }
+
+
   .nav-collapse .btn {
     padding: 4px 10px 4px;
     font-weight: normal;
@@ -1015,21 +1020,10 @@
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 2px;
   }
-  .nav-collapse .nav > li > a:hover,
-  .nav-collapse .nav > li > a:focus,
-  .nav-collapse .dropdown-menu a:hover,
-  .nav-collapse .dropdown-menu a:focus {
-    background-color: #f2f2f2;
-  }
+
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
-    color: #999999;
-  }
-  .navbar-inverse .nav-collapse .nav > li > a:hover,
-  .navbar-inverse .nav-collapse .nav > li > a:focus,
-  .navbar-inverse .nav-collapse .dropdown-menu a:hover,
-  .navbar-inverse .nav-collapse .dropdown-menu a:focus {
-    background-color: #111111;
+    color: #555555;
   }
   .nav-collapse.in .btn-group {
     padding: 0;
